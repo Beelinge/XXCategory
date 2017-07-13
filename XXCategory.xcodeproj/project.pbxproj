@@ -13,6 +13,7 @@
 		8EFCD52F1F1775D1001086B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFCD52D1F1775D1001086B6 /* Main.storyboard */; };
 		8EFCD5311F1775D1001086B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFCD5301F1775D1001086B6 /* Assets.xcassets */; };
 		8EFCD5341F1775D1001086B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFCD5321F1775D1001086B6 /* LaunchScreen.storyboard */; };
+		8EFCD53F1F1778DF001086B6 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCD53E1F1778DF001086B6 /* UIImage+Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8EFCD5301F1775D1001086B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EFCD5331F1775D1001086B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EFCD5351F1775D1001086B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFCD53D1F1778DF001086B6 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		8EFCD53E1F1778DF001086B6 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		8EFCD5231F1775D1001086B6 /* XXCategory */ = {
 			isa = PBXGroup;
 			children = (
+				8EFCD53B1F1778AB001086B6 /* Source */,
 				8EFCD5271F1775D1001086B6 /* AppDelegate.h */,
 				8EFCD5281F1775D1001086B6 /* AppDelegate.m */,
 				8EFCD52A1F1775D1001086B6 /* ViewController.h */,
@@ -77,6 +81,23 @@
 				8EFCD5251F1775D1001086B6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EFCD53B1F1778AB001086B6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8EFCD53C1F1778AB001086B6 /* UIImage */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8EFCD53C1F1778AB001086B6 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				8EFCD53D1F1778DF001086B6 /* UIImage+Color.h */,
+				8EFCD53E1F1778DF001086B6 /* UIImage+Color.m */,
+			);
+			path = UIImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EFCD52C1F1775D1001086B6 /* ViewController.m in Sources */,
+				8EFCD53F1F1778DF001086B6 /* UIImage+Color.m in Sources */,
 				8EFCD5291F1775D1001086B6 /* AppDelegate.m in Sources */,
 				8EFCD5261F1775D1001086B6 /* main.m in Sources */,
 			);
@@ -312,6 +334,7 @@
 				8EFCD53A1F1775D1001086B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
