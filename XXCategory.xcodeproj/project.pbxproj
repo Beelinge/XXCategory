@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E75E6D61F1A15DA00B1BD95 /* UIButton+XXSwapPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E75E6D51F1A15DA00B1BD95 /* UIButton+XXSwapPlace.m */; };
+		8E75E6DD1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E75E6DC1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.m */; };
 		8EFCD5261F1775D1001086B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCD5251F1775D1001086B6 /* main.m */; };
 		8EFCD5291F1775D1001086B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCD5281F1775D1001086B6 /* AppDelegate.m */; };
 		8EFCD52C1F1775D1001086B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCD52B1F1775D1001086B6 /* ViewController.m */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E75E6D41F1A15DA00B1BD95 /* UIButton+XXSwapPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XXSwapPlace.h"; sourceTree = "<group>"; };
+		8E75E6D51F1A15DA00B1BD95 /* UIButton+XXSwapPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XXSwapPlace.m"; sourceTree = "<group>"; };
+		8E75E6DB1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XXShowCameraSheet.h"; sourceTree = "<group>"; };
+		8E75E6DC1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XXShowCameraSheet.m"; sourceTree = "<group>"; };
 		8EFCD5211F1775D1001086B6 /* XXCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFCD5251F1775D1001086B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EFCD5271F1775D1001086B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +48,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E75E6D01F1A144800B1BD95 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				8E75E6D41F1A15DA00B1BD95 /* UIButton+XXSwapPlace.h */,
+				8E75E6D51F1A15DA00B1BD95 /* UIButton+XXSwapPlace.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		8E75E6D71F1A1D2700B1BD95 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E75E6DB1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.h */,
+				8E75E6DC1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
 		8EFCD5181F1775D1001086B6 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +110,8 @@
 		8EFCD53B1F1778AB001086B6 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				8E75E6D71F1A1D2700B1BD95 /* UIViewController */,
+				8E75E6D01F1A144800B1BD95 /* UIButton */,
 				8EFCD53C1F1778AB001086B6 /* UIImage */,
 			);
 			path = Source;
@@ -175,6 +201,8 @@
 				8EFCD52C1F1775D1001086B6 /* ViewController.m in Sources */,
 				8EFCD53F1F1778DF001086B6 /* UIImage+Color.m in Sources */,
 				8EFCD5291F1775D1001086B6 /* AppDelegate.m in Sources */,
+				8E75E6D61F1A15DA00B1BD95 /* UIButton+XXSwapPlace.m in Sources */,
+				8E75E6DD1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.m in Sources */,
 				8EFCD5261F1775D1001086B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

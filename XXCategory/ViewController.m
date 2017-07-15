@@ -8,7 +8,11 @@
 
 #import "ViewController.h"
 
+#import "UIButton+XXSwapPlace.h"
+#import "UIViewController+XXShowCameraSheet.h"
+
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *btn;
 
 @end
 
@@ -16,9 +20,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
+- (IBAction)show {
+    [self xx_showCameraSheetWithTintColor:nil didFinishBlock:^(NSDictionary<NSString *,id> *s) {
+        NSLog(@"...");
+    }];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
