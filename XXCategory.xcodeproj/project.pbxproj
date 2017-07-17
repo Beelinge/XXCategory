@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		8E75E6D61F1A15DA00B1BD95 /* UIButton+XXSwapPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E75E6D51F1A15DA00B1BD95 /* UIButton+XXSwapPlace.m */; };
 		8E75E6DD1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E75E6DC1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.m */; };
+		8E75E6E01F1C5CC000B1BD95 /* UIImage+XXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E75E6DF1F1C5CC000B1BD95 /* UIImage+XXColor.m */; };
+		8E75E6E41F1C5D5600B1BD95 /* NSString+XXValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E75E6E31F1C5D5600B1BD95 /* NSString+XXValidate.m */; };
+		8E75E6E81F1C5ECB00B1BD95 /* UIView+XXFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E75E6E71F1C5ECB00B1BD95 /* UIView+XXFrame.m */; };
 		8EFCD5261F1775D1001086B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCD5251F1775D1001086B6 /* main.m */; };
 		8EFCD5291F1775D1001086B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCD5281F1775D1001086B6 /* AppDelegate.m */; };
 		8EFCD52C1F1775D1001086B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCD52B1F1775D1001086B6 /* ViewController.m */; };
 		8EFCD52F1F1775D1001086B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFCD52D1F1775D1001086B6 /* Main.storyboard */; };
 		8EFCD5311F1775D1001086B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFCD5301F1775D1001086B6 /* Assets.xcassets */; };
 		8EFCD5341F1775D1001086B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFCD5321F1775D1001086B6 /* LaunchScreen.storyboard */; };
-		8EFCD53F1F1778DF001086B6 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCD53E1F1778DF001086B6 /* UIImage+Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,12 @@
 		8E75E6D51F1A15DA00B1BD95 /* UIButton+XXSwapPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XXSwapPlace.m"; sourceTree = "<group>"; };
 		8E75E6DB1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XXShowCameraSheet.h"; sourceTree = "<group>"; };
 		8E75E6DC1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XXShowCameraSheet.m"; sourceTree = "<group>"; };
+		8E75E6DE1F1C5CC000B1BD95 /* UIImage+XXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XXColor.h"; sourceTree = "<group>"; };
+		8E75E6DF1F1C5CC000B1BD95 /* UIImage+XXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XXColor.m"; sourceTree = "<group>"; };
+		8E75E6E21F1C5D5600B1BD95 /* NSString+XXValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XXValidate.h"; sourceTree = "<group>"; };
+		8E75E6E31F1C5D5600B1BD95 /* NSString+XXValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XXValidate.m"; sourceTree = "<group>"; };
+		8E75E6E61F1C5ECB00B1BD95 /* UIView+XXFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XXFrame.h"; sourceTree = "<group>"; };
+		8E75E6E71F1C5ECB00B1BD95 /* UIView+XXFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XXFrame.m"; sourceTree = "<group>"; };
 		8EFCD5211F1775D1001086B6 /* XXCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFCD5251F1775D1001086B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EFCD5271F1775D1001086B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,8 +41,6 @@
 		8EFCD5301F1775D1001086B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EFCD5331F1775D1001086B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EFCD5351F1775D1001086B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EFCD53D1F1778DF001086B6 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
-		8EFCD53E1F1778DF001086B6 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,24 @@
 				8E75E6DC1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.m */,
 			);
 			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		8E75E6E11F1C5D3400B1BD95 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				8E75E6E21F1C5D5600B1BD95 /* NSString+XXValidate.h */,
+				8E75E6E31F1C5D5600B1BD95 /* NSString+XXValidate.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		8E75E6E51F1C5EAB00B1BD95 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				8E75E6E61F1C5ECB00B1BD95 /* UIView+XXFrame.h */,
+				8E75E6E71F1C5ECB00B1BD95 /* UIView+XXFrame.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		8EFCD5181F1775D1001086B6 = {
@@ -110,6 +134,8 @@
 		8EFCD53B1F1778AB001086B6 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				8E75E6E51F1C5EAB00B1BD95 /* UIView */,
+				8E75E6E11F1C5D3400B1BD95 /* NSString */,
 				8E75E6D71F1A1D2700B1BD95 /* UIViewController */,
 				8E75E6D01F1A144800B1BD95 /* UIButton */,
 				8EFCD53C1F1778AB001086B6 /* UIImage */,
@@ -120,8 +146,8 @@
 		8EFCD53C1F1778AB001086B6 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				8EFCD53D1F1778DF001086B6 /* UIImage+Color.h */,
-				8EFCD53E1F1778DF001086B6 /* UIImage+Color.m */,
+				8E75E6DE1F1C5CC000B1BD95 /* UIImage+XXColor.h */,
+				8E75E6DF1F1C5CC000B1BD95 /* UIImage+XXColor.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -199,7 +225,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EFCD52C1F1775D1001086B6 /* ViewController.m in Sources */,
-				8EFCD53F1F1778DF001086B6 /* UIImage+Color.m in Sources */,
+				8E75E6E01F1C5CC000B1BD95 /* UIImage+XXColor.m in Sources */,
+				8E75E6E81F1C5ECB00B1BD95 /* UIView+XXFrame.m in Sources */,
+				8E75E6E41F1C5D5600B1BD95 /* NSString+XXValidate.m in Sources */,
 				8EFCD5291F1775D1001086B6 /* AppDelegate.m in Sources */,
 				8E75E6D61F1A15DA00B1BD95 /* UIButton+XXSwapPlace.m in Sources */,
 				8E75E6DD1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.m in Sources */,

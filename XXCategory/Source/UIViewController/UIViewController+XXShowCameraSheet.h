@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface UIViewController (XXShowCameraSheet) <UINavigationControllerDelegate,UIImagePickerControllerDelegate>
-- (UIAlertController *)xx_showCameraSheet;
-- (UIAlertController *)xx_showCameraSheetWithTintColor:(UIColor *)color;
 
-- (UIAlertController *)xx_showCameraSheetWithTintColor:(UIColor *)color didFinishBlock:(void(^)(NSDictionary<NSString *,id> *info))block;
+- (UIAlertController *)xx_showCameraSheetDidFinishBlock:(void(^)(NSDictionary<NSString *,id> *info))block;
+- (UIAlertController *)xx_showCameraSheetWithTintColor:(UIColor *)color
+                                        didFinishBlock:(void(^)(NSDictionary<NSString *,id> *info))block;
 @end

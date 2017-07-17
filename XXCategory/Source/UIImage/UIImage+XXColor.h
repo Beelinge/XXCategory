@@ -1,8 +1,8 @@
 //
-//  UIImage+Color.h
+//  UIImage+XXColor.h
 //  XXCategory
 //
-//  Created by Beelin on 17/6/23.
+//  Created by Beelin on 17/7/17.
 //  Copyright © 2017年 xx. All rights reserved.
 //
 
@@ -14,8 +14,7 @@ typedef NS_ENUM(NSInteger, UIImageGradientDirection) {
     UIImageGradientDirectionDown  //上-->下
 };
 
-@interface UIImage (Color)
-
+@interface UIImage (XXColor)
 /**
  *  获取图片
  *

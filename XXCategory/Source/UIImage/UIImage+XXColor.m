@@ -1,15 +1,14 @@
 //
-//  UIImage+Color.m
+//  UIImage+XXColor.m
 //  XXCategory
 //
-//  Created by Beelin on 17/6/23.
+//  Created by Beelin on 17/7/17.
 //  Copyright © 2017年 xx. All rights reserved.
 //
 
-#import "UIImage+Color.h"
+#import "UIImage+XXColor.h"
 
-@implementation UIImage (Color)
-
+@implementation UIImage (XXColor)
 + (UIImage *)xx_imageWithColor:(UIColor *)color {
     return  [self xx_imageWithColor:color size:CGSizeMake(1.0f, 1.0f)];
 }
