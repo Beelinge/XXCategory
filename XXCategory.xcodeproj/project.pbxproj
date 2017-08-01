@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E57BFE81F3081B5006EF167 /* UIViewController+XXTelephone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E57BFE71F3081B5006EF167 /* UIViewController+XXTelephone.m */; };
+		8E57BFEB1F308236006EF167 /* NSString+XXJudeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E57BFEA1F308236006EF167 /* NSString+XXJudeg.m */; };
+		8E57BFEE1F3089BB006EF167 /* NSMutableAttributedString+XXAttributed.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E57BFED1F3089BB006EF167 /* NSMutableAttributedString+XXAttributed.m */; };
 		8E75E6D61F1A15DA00B1BD95 /* UIButton+XXSwapPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E75E6D51F1A15DA00B1BD95 /* UIButton+XXSwapPlace.m */; };
 		8E75E6DD1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E75E6DC1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.m */; };
 		8E75E6E01F1C5CC000B1BD95 /* UIImage+XXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E75E6DF1F1C5CC000B1BD95 /* UIImage+XXColor.m */; };
-		8E75E6E41F1C5D5600B1BD95 /* NSString+XXValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E75E6E31F1C5D5600B1BD95 /* NSString+XXValidate.m */; };
 		8E75E6E81F1C5ECB00B1BD95 /* UIView+XXFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E75E6E71F1C5ECB00B1BD95 /* UIView+XXFrame.m */; };
 		8EFCD5261F1775D1001086B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCD5251F1775D1001086B6 /* main.m */; };
 		8EFCD5291F1775D1001086B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFCD5281F1775D1001086B6 /* AppDelegate.m */; };
@@ -21,14 +23,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E57BFE61F3081B5006EF167 /* UIViewController+XXTelephone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XXTelephone.h"; sourceTree = "<group>"; };
+		8E57BFE71F3081B5006EF167 /* UIViewController+XXTelephone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XXTelephone.m"; sourceTree = "<group>"; };
+		8E57BFE91F308236006EF167 /* NSString+XXJudeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XXJudeg.h"; sourceTree = "<group>"; };
+		8E57BFEA1F308236006EF167 /* NSString+XXJudeg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XXJudeg.m"; sourceTree = "<group>"; };
+		8E57BFEC1F3089BB006EF167 /* NSMutableAttributedString+XXAttributed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+XXAttributed.h"; sourceTree = "<group>"; };
+		8E57BFED1F3089BB006EF167 /* NSMutableAttributedString+XXAttributed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+XXAttributed.m"; sourceTree = "<group>"; };
 		8E75E6D41F1A15DA00B1BD95 /* UIButton+XXSwapPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XXSwapPlace.h"; sourceTree = "<group>"; };
 		8E75E6D51F1A15DA00B1BD95 /* UIButton+XXSwapPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XXSwapPlace.m"; sourceTree = "<group>"; };
 		8E75E6DB1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XXShowCameraSheet.h"; sourceTree = "<group>"; };
 		8E75E6DC1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XXShowCameraSheet.m"; sourceTree = "<group>"; };
 		8E75E6DE1F1C5CC000B1BD95 /* UIImage+XXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XXColor.h"; sourceTree = "<group>"; };
 		8E75E6DF1F1C5CC000B1BD95 /* UIImage+XXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XXColor.m"; sourceTree = "<group>"; };
-		8E75E6E21F1C5D5600B1BD95 /* NSString+XXValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XXValidate.h"; sourceTree = "<group>"; };
-		8E75E6E31F1C5D5600B1BD95 /* NSString+XXValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XXValidate.m"; sourceTree = "<group>"; };
 		8E75E6E61F1C5ECB00B1BD95 /* UIView+XXFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XXFrame.h"; sourceTree = "<group>"; };
 		8E75E6E71F1C5ECB00B1BD95 /* UIView+XXFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XXFrame.m"; sourceTree = "<group>"; };
 		8EFCD5211F1775D1001086B6 /* XXCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +74,8 @@
 			children = (
 				8E75E6DB1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.h */,
 				8E75E6DC1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.m */,
+				8E57BFE61F3081B5006EF167 /* UIViewController+XXTelephone.h */,
+				8E57BFE71F3081B5006EF167 /* UIViewController+XXTelephone.m */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -75,8 +83,10 @@
 		8E75E6E11F1C5D3400B1BD95 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				8E75E6E21F1C5D5600B1BD95 /* NSString+XXValidate.h */,
-				8E75E6E31F1C5D5600B1BD95 /* NSString+XXValidate.m */,
+				8E57BFE91F308236006EF167 /* NSString+XXJudeg.h */,
+				8E57BFEA1F308236006EF167 /* NSString+XXJudeg.m */,
+				8E57BFEC1F3089BB006EF167 /* NSMutableAttributedString+XXAttributed.h */,
+				8E57BFED1F3089BB006EF167 /* NSMutableAttributedString+XXAttributed.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -224,14 +234,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E57BFEE1F3089BB006EF167 /* NSMutableAttributedString+XXAttributed.m in Sources */,
 				8EFCD52C1F1775D1001086B6 /* ViewController.m in Sources */,
+				8E57BFEB1F308236006EF167 /* NSString+XXJudeg.m in Sources */,
 				8E75E6E01F1C5CC000B1BD95 /* UIImage+XXColor.m in Sources */,
 				8E75E6E81F1C5ECB00B1BD95 /* UIView+XXFrame.m in Sources */,
-				8E75E6E41F1C5D5600B1BD95 /* NSString+XXValidate.m in Sources */,
 				8EFCD5291F1775D1001086B6 /* AppDelegate.m in Sources */,
 				8E75E6D61F1A15DA00B1BD95 /* UIButton+XXSwapPlace.m in Sources */,
 				8E75E6DD1F1A1DD700B1BD95 /* UIViewController+XXShowCameraSheet.m in Sources */,
 				8EFCD5261F1775D1001086B6 /* main.m in Sources */,
+				8E57BFE81F3081B5006EF167 /* UIViewController+XXTelephone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

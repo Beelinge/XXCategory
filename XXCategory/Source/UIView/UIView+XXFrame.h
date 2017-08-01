@@ -27,6 +27,9 @@
 @property (nonatomic, readonly) CGFloat xx_top;
 @property (nonatomic, readonly) CGFloat xx_bottom;
 
+@property (nonatomic) CGRect xx_frame;
+
+@property (nonatomic, assign, getter=isScale) BOOL scale;
 
 - (UIViewController *)xx_viewController;
 @end

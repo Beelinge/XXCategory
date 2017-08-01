@@ -8,6 +8,8 @@
 
 #import "UIView+XXFrame.h"
 
+#define SCALE ([[UIScreen mainScreen]bounds].size.width) / 375.0
+
 @implementation UIView (XXFrame)
 - (CGFloat)xx_x {
     return self.frame.origin.x;
@@ -107,6 +109,18 @@
 
 - (CGFloat)xx_bottom {
     return self.frame.origin.y + self.frame.size.height;
+}
+
+- (CGRect)xx_frame {
+    return self.frame;
+}
+
+- (void)setXx_frame:(CGRect)xx_frame {
+    self.scale = YES;
+    xx_frame.origin.x *= SCALE;
+    xx_frame.origin.y *= SCALE;
+    xx_frame.size.width *= SCALE;
+    xx_frame.size.height *= SCALE;
 }
 
 - (UIViewController *)xx_viewController{
